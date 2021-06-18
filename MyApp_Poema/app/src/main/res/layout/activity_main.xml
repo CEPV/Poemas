@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEFDCF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textPoema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POEMAS"
+        android:layout_marginTop="100sp"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+/>
+
+    <ImageView
+        android:id="@+id/imgBandera"
+        android:layout_width="250sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_bandera"
+        android:layout_below="@+id/textPoema"
+        />
+
+    <Button
+        android:id="@+id/btnBandera"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/imgBandera"
+        android:text="Bandera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:onClick="Pulsar"
+        />
+
+    <Button
+        android:id="@+id/btnCeiba"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/btnBandera"
+        android:text="Ceiba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:onClick="Pulsar"
+        />
+
+    <Button
+        android:id="@+id/btnMonjaBlanca"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/btnCeiba"
+        android:text="Moja Blanca"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:onClick="Pulsar"
+        />
+</RelativeLayout>
